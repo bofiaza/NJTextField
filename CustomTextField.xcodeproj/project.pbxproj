@@ -14,6 +14,7 @@
 		BE9C617F24EE753E00374149 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9C617E24EE753E00374149 /* Preview Assets.xcassets */; };
 		BE9C618224EE753E00374149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9C618024EE753E00374149 /* LaunchScreen.storyboard */; };
 		BE9C618D24EE753E00374149 /* CustomTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9C618C24EE753E00374149 /* CustomTextFieldTests.swift */; };
+		BE9C619824EE755E00374149 /* NJTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9C619724EE755E00374149 /* NJTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		BE9C618824EE753E00374149 /* CustomTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9C618C24EE753E00374149 /* CustomTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldTests.swift; sourceTree = "<group>"; };
 		BE9C618E24EE753E00374149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE9C619724EE755E00374149 /* NJTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				BE9C618024EE753E00374149 /* LaunchScreen.storyboard */,
 				BE9C618324EE753E00374149 /* Info.plist */,
 				BE9C617D24EE753E00374149 /* Preview Content */,
+				BE9C619724EE755E00374149 /* NJTextField.swift */,
 			);
 			path = CustomTextField;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE9C617624EE753C00374149 /* AppDelegate.swift in Sources */,
+				BE9C619824EE755E00374149 /* NJTextField.swift in Sources */,
 				BE9C617824EE753C00374149 /* SceneDelegate.swift in Sources */,
 				BE9C617A24EE753C00374149 /* ContentView.swift in Sources */,
 			);
